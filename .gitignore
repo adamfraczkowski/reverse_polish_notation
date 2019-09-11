@@ -2,3 +2,4 @@ go-worker/src/github.com
 go-worker/src/golang.org
 go-worker/bin
 go-worker/pkg
+go-worker/src/compute-rpn/__debug_bin
