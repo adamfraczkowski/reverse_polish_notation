@@ -1,2 +1,3 @@
 start python python-api/server
-start go-worker/src/compute-rpn/main.exe
+start go rungo-worker/src/compute-rpn/main.go
+ruby ruby-endpoint/main.rb
