@@ -59,3 +59,35 @@ Generate logs both on stdout and to `python.log` file. It uses python logging me
 ## ruby-endpoint
 
 TODO
+
+# RUNNING PROJECT
+
+## Requirements
+
+* Python 3.6
+* Ruby 2.x
+* pip for python3
+* Bundler Gem for Ruby
+
+## Instalation
+
+* for python go to `python-api` folder and run command:
+`pip install -r requirements.txt`
+* for ruby go t `ruby-endpoint` and run command:
+`bundle install`
+
+## Execute
+
+You can manually run every project in order:
+* go-worker
+* python-api
+* ruby-endpoint
+Depends on OS and your env you need execute three commands:
+(Linux)
+```
+go run go-worker/src/compute-rpn/main.go &
+python3 python-api/server.py &
+ruby ruby-endpoint/main.rb
+```
+
+For windows use command `start` for running `go-worker` and `python-server` in parallel or use `run.bat` script
