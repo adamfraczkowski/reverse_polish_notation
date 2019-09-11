@@ -34,7 +34,7 @@ If status 400 received, errors occurs. There are two types of errors:
 Example of request, to calculate expression:
 ```
 {
-	"exp":"d12 2 3 4 * 10 5 / + * +"
+	"exp":"12 2 3 4 * 10 5 / + * +"
 }
 ```
 
@@ -42,7 +42,19 @@ HTTP Server run on port 8080. Based on gorilla/mux package. Every request is con
 
 ## python-api
 
-TODO
+Python-api is responsible for logging and making task queue. Application runs simple Flask service on 8081 port. Had single API endpoint `/queue`.
+
+Example JSON request:
+
+```
+["12 2 3 4 * 10 5 / + * +","7 2 3 4 * 10 5 / + * +","4 2 3 4 * 10 5 / + * +"]
+```
+And response:
+```
+
+```
+
+Generate logs both on stdout and to `python.log` file. It uses python logging mechanism
 
 ## ruby-endpoint
 

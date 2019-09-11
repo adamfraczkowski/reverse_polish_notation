@@ -1,0 +1,54 @@
+2019-09-12 01:14:51,888 [MainThread  ] [INFO ]   * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+2019-09-12 01:15:02,214 [Thread-1    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:15:02,216 [Thread-1    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:15:02,217 [Thread-1    ] [DEBUG]  compute request success: 12 2 3 4 * 10 5 / + * +
+2019-09-12 01:15:02,218 [Thread-1    ] [INFO ]  result: 40 time: 0ns
+2019-09-12 01:15:02,220 [Thread-1    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:15:02,221 [Thread-1    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:15:02,222 [Thread-1    ] [DEBUG]  compute request success: 7 2 3 4 * 10 5 / + * +
+2019-09-12 01:15:02,223 [Thread-1    ] [INFO ]  result: 35 time: 0ns
+2019-09-12 01:15:02,243 [Thread-1    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:15:02,247 [Thread-1    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:15:02,247 [Thread-1    ] [DEBUG]  compute request success: 4 2 3 4 * 10 5 / + * +
+2019-09-12 01:15:02,248 [Thread-1    ] [INFO ]  result: 32 time: 0ns
+2019-09-12 01:15:02,249 [Thread-1    ] [INFO ]  127.0.0.1 - - [12/Sep/2019 01:15:02] "POST /queue HTTP/1.1" 200 -
+2019-09-12 01:16:41,851 [MainThread  ] [INFO ]   * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+2019-09-12 01:16:44,180 [Thread-1    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:16:44,183 [Thread-1    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:16:44,183 [Thread-1    ] [DEBUG]  compute request success: 12 2 3 4 * 10 5 / + * +
+2019-09-12 01:16:44,184 [Thread-1    ] [INFO ]  result: 40 time: 0ns
+2019-09-12 01:16:44,186 [Thread-1    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:16:44,188 [Thread-1    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:16:44,188 [Thread-1    ] [DEBUG]  compute request success: 7 2 3 4 * 10 5 / + * +
+2019-09-12 01:16:44,189 [Thread-1    ] [INFO ]  result: 35 time: 0ns
+2019-09-12 01:16:44,191 [Thread-1    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:16:44,221 [Thread-1    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:16:44,222 [Thread-1    ] [DEBUG]  compute request success: 4 2 3 4 * 10 5 / + * +
+2019-09-12 01:16:44,222 [Thread-1    ] [INFO ]  result: 32 time: 0ns
+2019-09-12 01:16:44,223 [Thread-1    ] [INFO ]  127.0.0.1 - - [12/Sep/2019 01:16:44] "POST /queue HTTP/1.1" 200 -
+2019-09-12 01:17:01,033 [Thread-2    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:17:01,035 [Thread-2    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:17:01,036 [Thread-2    ] [DEBUG]  compute request success: 12 2 3 4 * 10 5 / + * +
+2019-09-12 01:17:01,036 [Thread-2    ] [INFO ]  result: 40 time: 0ns
+2019-09-12 01:17:01,038 [Thread-2    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:17:01,040 [Thread-2    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:17:01,041 [Thread-2    ] [DEBUG]  compute request success: 7 2 3 4 * 10 5 / + * +
+2019-09-12 01:17:01,056 [Thread-2    ] [INFO ]  result: 35 time: 0ns
+2019-09-12 01:17:01,060 [Thread-2    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:17:01,075 [Thread-2    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:17:01,090 [Thread-2    ] [DEBUG]  compute request success: 4 2 3 4 * 10 5 / + * +
+2019-09-12 01:17:01,108 [Thread-2    ] [INFO ]  result: 32 time: 0ns
+2019-09-12 01:17:01,110 [Thread-2    ] [INFO ]  127.0.0.1 - - [12/Sep/2019 01:17:01] "POST /queue HTTP/1.1" 200 -
+2019-09-12 01:17:12,335 [Thread-3    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:17:12,338 [Thread-3    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:17:12,354 [Thread-3    ] [DEBUG]  compute request success: 12 2 3 4 * 10 5 / + * +
+2019-09-12 01:17:12,354 [Thread-3    ] [INFO ]  result: 40 time: 0ns
+2019-09-12 01:17:12,356 [Thread-3    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:17:12,375 [Thread-3    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:17:12,376 [Thread-3    ] [DEBUG]  compute request success: 7 2 3 4 * 10 5 / + * +
+2019-09-12 01:17:12,376 [Thread-3    ] [INFO ]  result: 35 time: 0ns
+2019-09-12 01:17:12,378 [Thread-3    ] [DEBUG]  Starting new HTTP connection (1): localhost:8080
+2019-09-12 01:17:12,381 [Thread-3    ] [DEBUG]  http://localhost:8080 "POST /compute HTTP/1.1" 200 42
+2019-09-12 01:17:12,382 [Thread-3    ] [DEBUG]  compute request success: 4 2 3 4 * 10 5 / + * +
+2019-09-12 01:17:12,382 [Thread-3    ] [INFO ]  result: 32 time: 0ns
+2019-09-12 01:17:12,383 [Thread-3    ] [INFO ]  127.0.0.1 - - [12/Sep/2019 01:17:12] "POST /queue HTTP/1.1" 200 -
