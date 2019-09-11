@@ -51,7 +51,20 @@ Example JSON request:
 ```
 And response:
 ```
-
+[
+  {
+    "result": "40",
+    "time": "0ns"
+  },
+  {
+    "result": "35",
+    "time": "0ns"
+  },
+  {
+    "result": "32",
+    "time": "0ns"
+  }
+]
 ```
 
 Generate logs both on stdout and to `python.log` file. It uses python logging mechanism
