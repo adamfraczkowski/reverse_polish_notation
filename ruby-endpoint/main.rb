@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 require 'json'
+require 'httparty'
 
 QUEUE_SERVER = "http://localhost:8081/queue"
 
@@ -19,3 +20,6 @@ jsonStruct = JSON[expression_array]
 #send data to queue server
 result_of_queue_request = HTTParty.post(QUEUE_SERVER,:body => jsonStruct,:headers => {'Content-Type' => 'application/json'})
 #parsing sorted result to output
+(0..result_of_queue_request.length-1).each { |i|
+    puts result_of_queue_request[i]["result"] + ","+ result_of_queue_request[i]["time"] 
+}

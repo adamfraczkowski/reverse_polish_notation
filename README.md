@@ -95,12 +95,13 @@ You can manually run every project in order:
 * go-worker
 * python-api
 * ruby-endpoint
-Depends on OS and your env you need execute three commands:
-(Linux)
-```
-go run go-worker/src/compute-rpn/main.go &
-python3 python-api/server.py &
-ruby ruby-endpoint/main.rb
-```
 
-For windows use command `start` for running `go-worker` and `python-server` in parallel or use `run.bat` script
+Depends on OS and your env you need execute three commands in separate terminals:
+
+```
+go run go-worker/src/compute-rpn/main.go 
+python3 python-api/server.py 
+ruby ruby-endpoint/main.rb
+``` 
+
+There's also `insomnia` workspace to test server application.
